@@ -16,4 +16,7 @@ This is just a repo of mine learning rust programming language.
 - Udemy (Ultimate Rust Crash Course) [Link Here](https://www.udemy.com/course/ultimate-rust-crash-course/)
 - Udemy (Ultimate Rust Crash Course) [Link Here](https://www.udemy.com/course/ultimate-rust-2/)
 - Also from the rust by examples [Link Here](https://doc.rust-lang.org/rust-by-example/)
+- Books for reference
+  - The complete Rust programming reference guide - Rahul Sharma, vesa Kalhlavirta, Claus Matzinger
+  - Rust CookBook - Vigneshwer Dhinakaran
 - If you guys want you can check out his channel and mainly the rust crash course.

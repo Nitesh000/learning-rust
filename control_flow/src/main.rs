@@ -86,24 +86,39 @@
 // }
 
 // Looping through a collection with for
+// fn main() {
+//     let a = [10, 20, 30, 40, 50];
+//     // for element in a {
+//     //     println!("the value is: {}", element);
+//     // }
+//
+//     // another way
+//     // for element in a.iter() {
+//     //     println!("the value is: {}", element);
+//     // }
+//
+//     // for loop with range
+//     // for number in 0..5 {  // here we can add functions like .rev() to reverse the range
+//     //     println!("{}. the value is: {}", number, a[number]);
+//     // }
+//     //
+//     // for loop with reverese range
+//     for number in (0..5).rev() {
+//         println!("{}. the value is: {}", number, a[number]);
+//     }
+// }
+
+// match expression
+fn req_status() -> u32 {
+    202
+}
 fn main() {
-    let a = [10, 20, 30, 40, 50];
-    // for element in a {
-    //     println!("the value is: {}", element);
-    // }
-
-    // another way
-    // for element in a.iter() {
-    //     println!("the value is: {}", element);
-    // }
-
-    // for loop with range
-    // for number in 0..5 {  // here we can add functions like .rev() to reverse the range
-    //     println!("{}. the value is: {}", number, a[number]);
-    // }
-    //
-    // for loop with reverese range
-    for number in (0..5).rev() {
-        println!("{}. the value is: {}", number, a[number]);
-    }
+    let status = req_status();
+    match status {
+        200 => println!("Success"),
+        404 => println!("Not Found"),
+        _ => {
+            println!("Request failed!",); // defaut expression
+        }
+    } // Request failed!
 }
