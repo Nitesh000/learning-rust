@@ -1,7 +1,7 @@
 // enums are types which have a few definite values
 // kind of little tricksy, but they're pretty cool
-
 #[derive(Debug)]
+#[allow(dead_code)]
 
 enum Direction {
     N,
@@ -10,6 +10,7 @@ enum Direction {
     W,
 }
 
+#[allow(dead_code)]
 enum PlayerAction {
     Move { direction: Direction, speed: u8 },
     Wait,
