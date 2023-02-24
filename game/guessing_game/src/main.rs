@@ -1,6 +1,7 @@
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
+mod word_counter;
 
 fn main() {
     println!("Guess the number!");
